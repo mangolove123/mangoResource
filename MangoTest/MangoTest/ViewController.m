@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+<<<<<<< HEAD
 //    NSLog(@"什么意思");
     NSLog(@"我爱你啊!");
 }
@@ -24,5 +25,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
     NSLog(@"I love XMY!");
+=======
+    NSLog(@"什么意思");
+>>>>>>> development
 }
 @end
