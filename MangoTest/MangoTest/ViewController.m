@@ -24,4 +24,9 @@
 //    // Dispose of any resources that can be recreated.
 //    NSLog(@"I love XMY!");
 //}
+
+- (void)clickBtn:(id)sender{
+    NSLog(@"执行了一次点击事件");
+}
+
 @end
