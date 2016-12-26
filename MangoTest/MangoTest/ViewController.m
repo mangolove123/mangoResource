@@ -19,4 +19,9 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"我爱你啊!");
 }
+
+- (void)fetchDataFromServierWithUserID:(NSInteger)userId{
+    NSLog(@"执行了网络请求");
+}
+
 @end
