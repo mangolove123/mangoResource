@@ -24,4 +24,7 @@
     NSLog(@"执行了网络请求");
 }
 
+- (void)test1{
+    NSLog(@"正好");
+}
 @end
