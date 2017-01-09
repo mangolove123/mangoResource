@@ -7,6 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
+
+#define ENSURE_NOTNULL(v) (v ? v : @"")
+
 
 @interface ViewController ()
 
@@ -14,17 +18,27 @@
 
 @implementation ViewController
 
+//+ (instancetype)test:(id)v{
+//    
+//   return [v isKindOfClass:[NSString class]] ? (v ? v : @"") : (v ? v : [NSNull null]);
+//    
+////    if ([v isKindOfClass:[NSString class]]) {
+////        return v ? v : @"";
+////    }else{
+////        return v ? v : [NSNull null];
+////    }
+//}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    NSLog(@"我爱你啊!");
+    NSString *name = nil;
+    
+    
+    NSDictionary *dic = @{@"name" : ENSURE_NOTNULL(name)};
+    
+//    dic valueForKey:<#(nonnull NSString *)#>
+    NSLog(@"dic = %@",dic[@"name"]);
 }
 
-- (void)fetchDataFromServierWithUserID:(NSInteger)userId{
-    NSLog(@"执行了网络请求");
-}
-
-- (void)test1{
-    NSLog(@"正好");
-}
 @end
