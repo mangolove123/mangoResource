@@ -7,6 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
+
+#define ENSURE_NOTNULL(v) (v ? v : @"")
+
 
 @interface ViewController ()
 
@@ -14,20 +18,26 @@
 
 @implementation ViewController
 
+//+ (instancetype)test:(id)v{
+//    
+//   return [v isKindOfClass:[NSString class]] ? (v ? v : @"") : (v ? v : [NSNull null]);
+//    
+////    if ([v isKindOfClass:[NSString class]]) {
+////        return v ? v : @"";
+////    }else{
+////        return v ? v : [NSNull null];
+////    }
+//}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    NSLog(@"什么意思");
+    NSString *name = nil;
+    
+    
+    NSDictionary *dic = @{@"name" : ENSURE_NOTNULL(name)};
+    
+//    dic valueForKey:<#(nonnull NSString *)#>
+    NSLog(@"dic = %@",dic[@"name"]);
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 @end

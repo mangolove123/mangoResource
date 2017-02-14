@@ -15,6 +15,7 @@
 		DB111EC41E0E175B001AFF66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB111EC21E0E175B001AFF66 /* LaunchScreen.storyboard */; };
 		DB111ECF1E0E175B001AFF66 /* MangoTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB111ECE1E0E175B001AFF66 /* MangoTestTests.m */; };
 		DB111EDA1E0E175B001AFF66 /* MangoTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB111ED91E0E175B001AFF66 /* MangoTestUITests.m */; };
+		DBFEC31B1E1E332700C6BA6B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFEC31A1E1E332700C6BA6B /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DB111ED51E0E175B001AFF66 /* MangoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MangoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB111ED91E0E175B001AFF66 /* MangoTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MangoTestUITests.m; sourceTree = "<group>"; };
 		DB111EDB1E0E175B001AFF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBFEC3191E1E332700C6BA6B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DBFEC31A1E1E332700C6BA6B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				DB111EC21E0E175B001AFF66 /* LaunchScreen.storyboard */,
 				DB111EC51E0E175B001AFF66 /* Info.plist */,
 				DB111EB41E0E175B001AFF66 /* Supporting Files */,
+				DBFEC3191E1E332700C6BA6B /* Person.h */,
+				DBFEC31A1E1E332700C6BA6B /* Person.m */,
 			);
 			path = MangoTest;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 			files = (
 				DB111EBC1E0E175B001AFF66 /* ViewController.m in Sources */,
 				DB111EB91E0E175B001AFF66 /* AppDelegate.m in Sources */,
+				DBFEC31B1E1E332700C6BA6B /* Person.m in Sources */,
 				DB111EB61E0E175B001AFF66 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
