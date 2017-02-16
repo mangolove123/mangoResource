@@ -437,6 +437,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = test.wmf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -451,6 +452,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = test.wmf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};
