@@ -34,7 +34,6 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSString *name = nil;
     
-    
     NSDictionary *dic = @{@"name" : ENSURE_NOTNULL(name)};
     
 //    dic valueForKey:<#(nonnull NSString *)#>

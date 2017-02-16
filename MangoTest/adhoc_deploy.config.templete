@@ -1,0 +1,28 @@
+##  @Date 2014-11-28
+
+PCH_FILE=51talk/51talk-Prefix.pch
+ADHOC_PROVISION=com.51talk.app.Adhoc
+
+## 进行签名的密钥
+DIST_SIGN="iOS Distribution: BeiJing Da Sheng Zhi Xing  Technology  Co Ltd"
+
+## 应用程序的名称
+TARGET_NAME="51talk"
+bundleIdentifier="com.51talk.app"           ## 当前应用的Identifier
+
+RELEASE_OR_DEBUG=Release  ## Push方式不一样，以及配置可能不一样
+#RELEASE_OR_DEBUG=Debug   ## Debug
+
+## 上传到蒲公英需要的一些验证
+UPLOAD_APP_KEY="387f5a431732e5e312610ee78cfcc2f9"
+UPLOAD_API_KEY="ab41c0fd5d1775e504b2dede9aa38c3b"
+DOWN_PASSWORD="talk"
+
+## 上传到fir
+## 线上版
+FIR_USER_TOKEN="6472941987f6a62837ae96bd34d2da77"
+FIR_APP_ID="54f009e30da2d0b742000333"
+
+## 测试版
+#FIR_USER_TOKEN="e18429b81961ce13d64ecedadb443286"
+#FIR_APP_ID="556ebf5b091529c94e000367"
