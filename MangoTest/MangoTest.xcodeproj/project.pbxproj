@@ -212,7 +212,6 @@
 				TargetAttributes = {
 					DB111EB01E0E175B001AFF66 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 9Q972K774Y;
 						ProvisioningStyle = Manual;
 					};
 					DB111EC91E0E175B001AFF66 = {
@@ -433,13 +432,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEVELOPMENT_TEAM = 9Q972K774Y;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MangoTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.51talk.app;
+				PRODUCT_BUNDLE_IDENTIFIER = test.wmf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "17036f00-2dcb-41aa-94ba-0f5b28a0d50a";
-				PROVISIONING_PROFILE_SPECIFIER = com.51talk.app.dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
@@ -451,12 +450,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEVELOPMENT_TEAM = 9Q972K774Y;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MangoTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.51talk.app;
+				PRODUCT_BUNDLE_IDENTIFIER = test.wmf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "17036f00-2dcb-41aa-94ba-0f5b28a0d50a";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				VALID_ARCHS = "armv7 armv7s arm64";
