@@ -212,8 +212,7 @@
 				TargetAttributes = {
 					DB111EB01E0E175B001AFF66 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 2KV6NYVS9M;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					DB111EC91E0E175B001AFF66 = {
 						CreatedOnToolsVersion = 8.1;
@@ -449,7 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: wang mengfa (57DZ2N62NJ)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: wang mengfa (A2566WTSVJ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MangoTest/Info.plist;
