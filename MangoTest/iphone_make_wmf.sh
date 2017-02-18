@@ -35,16 +35,19 @@ xcodebuild clean -project ${TARGET_NAME}.xcodeproj -configuration ${RELEASE_OR_D
 
 xcodebuild -project ${TARGET_NAME}.xcodeproj -configuration ${RELEASE_OR_DEBUG} -alltargets
 
-# xcodebuild -project ${TARGET_NAME}.xcodeproj -scheme ${TARGET_NAME}
+xcodebuild -project ${TARGET_NAME}.xcodeproj -scheme ${TARGET_NAME}
 
 ARCHIVE_PATH="${PWD_STR}/build/${TARGET_NAME}.xcarchive"
 APP_PATH="${PWD_STR}/build/Payload/${TARGET_NAME}.app"
 IPA_PATH="${PWD_STR}/build/${PRODUCT_NAME}.ipa"
 
 # 生成archive文件
-# xcodebuild archive -project ${TARGET_NAME}.xcodeproj -scheme ${TARGET_NAME} -archivePath ${ARCHIVE_PATH}
-# echo "create achieve success"
+xcodebuild archive -project ${TARGET_NAME}.xcodeproj -scheme ${TARGET_NAME} -archivePath ${ARCHIVE_PATH}
+echo "create achieve success"
 
-# # 签名并且导出ipa文件
-# xcodebuild -exportArchive -archivePath ${ARCHIVE_PATH} -exportPath ${IPA_PATH} -exportFormat ipa -exportProvisioningProfile "${ADHOC_PROVISION}"
-# echo "create ipa success"
+# 签名并且导出ipa文件
+
+
+xcodebuild -exportArchive -archivePath ${ARCHIVE_PATH} -exportPath ${IPA_PATH} -exportFormat ipa
+#-exportProvisioningProfile "${ADHOC_PROVISION}"
+echo "create ipa success"
